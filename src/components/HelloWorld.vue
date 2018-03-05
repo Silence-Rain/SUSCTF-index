@@ -158,9 +158,12 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 20px;
 }
 
 .countdown-item div {
+  width: 280px;
+  text-align: center;
   border: 5px solid #FFF;
   border-radius: 20px;
 }
@@ -170,7 +173,6 @@ export default {
   display: flex;
   flex-direction: column;
   padding: 50px;
-  /*height: 2000px;*/
   color: #FFF;
   background-image: url("../assets/content-bg.jpg");
   background-size: 100%;
@@ -195,6 +197,7 @@ export default {
 .content-subtitle {
   display: flex;
   flex-direction: row;
+  line-height: 60px;
 }
 
 .content-subtitle img{
