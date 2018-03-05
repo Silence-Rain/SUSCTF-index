@@ -29,7 +29,7 @@
     <div class="content">
       <div class="content-item">
         <div class="content-subtitle"> 
-          <img src="../assets/tag1.png"/>
+          <img src="../assets/tag.png"/>
           <p><span>01</span>简介</p>
         </div>
         <p>
@@ -39,21 +39,21 @@
 
       <div class="content-item">
         <div class="content-subtitle"> 
-          <img src="../assets/tag1.png"/>
+          <img src="../assets/tag.png"/>
           <p><span>02</span>比赛时间</p>
         </div>
         <p>
-          8小时 北京时间2018年3月31号9.00开始,3月31号17:00结束
+          8小时 北京时间2018年3月31日9:00开始，17:00结束
         </p>
       </div>
 
       <div class="content-item">
         <div class="content-subtitle"> 
-          <img src="../assets/tag1.png"/>
+          <img src="../assets/tag.png"/>
           <p><span>03</span>题目</p>     
         </div>
         <p>
-          传统的CTF(Capture the flag)模式。每道赛题均内置1个flag,大多数情况下为SUSCTF{example_flag},提交包含SUSCTF{}的完整flag来获得相应分值。特殊情况会在题目中标明。 
+          传统的CTF(Capture the flag)模式。每道赛题均内置1个flag，大多数情况下为SUSCTF{example_flag}。提交包含SUSCTF{}的完整flag来获得相应分值。特殊情况会在题目中标明。 
         </p>
         <p>包含如下题目类型：</p>
         <ul>
@@ -61,13 +61,13 @@
           <li>Pwn 漏洞挖掘利用</li>
           <li>Crypto 密码分析</li>
           <li>Re 二进制程序逆向分析</li>
-          <li>Misc 电子取证,流量分析,信息隐藏...</li>
+          <li>Misc 电子取证，流量分析，信息隐藏...</li>
         </ul>
       </div>
 
       <div class="content-item">
         <div class="content-subtitle"> 
-          <img src="../assets/tag1.png"/>
+          <img src="../assets/tag.png"/>
           <p><span>04</span>规则</p>
         </div>
         <p>
@@ -86,11 +86,14 @@
 
       <div class="content-item">
         <div class="content-subtitle">
-          <img src="../assets/tag1.png"/>
-          <p><span>05</span>联系方式</p>
+          <img src="../assets/tag.png"/>
+          <p><span>05</span>报名 & 联系方式</p>
         </div>
         <p>
-          哈哈哈哈这是联系方式啊啊啊
+          如果是有问题要问，直接加入QQ群SUSCTF：429678492，备注“年级-院系-姓名”即可～
+        </p>
+        <p>
+          如果要报名的话，加群之后，各队信息统一发送至群主处，等待群主确认后为各队发放认证token（3月26日截止）
         </p>
       </div>
 
@@ -147,6 +150,8 @@ export default {
   width: 100%;
   height: 100%;
   font-size: 20px;
+  background-image: url("../assets/bg.jpg");
+  background-attachment: fixed;
 }
 
 .header {
@@ -154,9 +159,6 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../assets/cover.jpg");
-  background-size: 100%;
-  /*background-repeat: no-repeat;*/
 }
 
 .logo {
@@ -178,7 +180,6 @@ export default {
 .countdown {
   display: flex;
   flex-direction: row;
-  margin-bottom: 20px;
 }
 
 .countdown-item {
@@ -208,8 +209,7 @@ export default {
   align-items: center;
   padding: 50px;
   color: #FFF;
-  background-image: url("../assets/content-bg.jpg");
-  background-size: 100%;
+  
 }
 
 .content-item {
