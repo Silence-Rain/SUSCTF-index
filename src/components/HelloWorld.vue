@@ -1,7 +1,7 @@
 <template>
   <div class="parent-container container-fluid">
     <div class="header">
-      <img src="../assets/logo.png" class="logo" />
+      <img src="http://static.myseu.cn/b2adde3bb55900474628196552748207" class="logo" />
       <div class="title">
         <div class="row">
           <p class="col-md-12">江苏省大学生</p>
@@ -176,7 +176,7 @@ export default {
   width: 100%;
   height: 100%;
   font-size: 20px;
-  background-image: url("../assets/bg.jpg");
+  background-image: url("http://static.myseu.cn/60c11717c07b6caee18fb9ef76fdf19e");
   background-attachment: fixed;
 }
 
