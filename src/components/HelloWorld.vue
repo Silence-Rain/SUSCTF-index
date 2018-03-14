@@ -1,119 +1,128 @@
 <template>
-  <div class="parent-container">
+  <div class="parent-container container-fluid">
     <div class="header">
       <img src="../assets/logo.png" class="logo" />
       <div class="title">
-        <p>江苏省大学生</p>
-        <p>网络空间安全精英邀请赛</p>
-        <div class="countdown">
-          <div class="countdown-item">
+        <div class="row">
+          <p class="col-md-12">江苏省大学生</p>
+        </div>
+        <div class="row">
+          <p class="col-md-12">网络空间安全精英邀请赛</p>
+        </div>
+        
+        <div class="countdown row">
+          <div class="countdown-item col-md-3">
             <p>{{days}}</p>
             <div>Days</div>
           </div>
-          <div class="countdown-item">
+          <div class="countdown-item col-md-3">
             <p>{{hours}}</p>
             <div>Hours</div>
           </div>
-          <div class="countdown-item">
+          <div class="countdown-item col-md-3">
             <p>{{mins}}</p>
             <div>Minutes</div>
           </div>
-          <div class="countdown-item">
+          <div class="countdown-item col-md-3">
             <p>{{secs}}</p>
             <div>Seconds</div>
           </div>
         </div>
+
       </div>
     </div>
 
-    <div class="content">
-      <div class="content-item">
-        <div class="content-subtitle"> 
-          <img src="../assets/tag.png"/>
-          <p><span>01</span>简介</p>
+    <div>
+      <div class="content">
+        <div class="content-item">
+          <div class="content-subtitle"> 
+            <img src="../assets/tag.png"/>
+            <p><span>01</span>简介</p>
+          </div>
+          <p>
+            本次比赛由东南大学网络空间安全学院指导，东南大学网络安全联盟主办，赛宁网安提供网络安全攻防实战平台的技术支持。
+          </p>
+          <p>比赛面向全江苏省的高校，希望江苏各高校的新一届队员来到东南大学切磋技术，共同进步。
+          </p>
+          <p>本次比赛同时也作为为东南大学网络安全联盟CTF战队招新赛,面向全校招募新一届的队员，也借此机会选拔出真正对网安感兴趣的优秀后备人才。
+          </p>
         </div>
-        <p>
-          本次比赛由东南大学网络空间安全学院指导，东南大学网络安全联盟主办，赛宁网安提供网络安全攻防实战平台的技术支持。
-          比赛面向全江苏省的高校，希望江苏各高校的新一届队员来到东南大学切磋技术，共同进步。
-          本次比赛同时也作为为东南大学网络安全联盟CTF战队招新赛,面向全校招募新一届的队员，也借此机会选拔出真正对网安感兴趣的优秀后备人才。
 
-        </p>
-      </div>
-
-      <div class="content-item">
-        <div class="content-subtitle"> 
-          <img src="../assets/tag.png"/>
-          <p><span>02</span>比赛时间</p>
+        <div class="content-item">
+          <div class="content-subtitle"> 
+            <img src="../assets/tag.png"/>
+            <p><span>02</span>比赛时间</p>
+          </div>
+          <p>
+            8小时 北京时间2018年3月31日9:00开始，17:00结束
+          </p>
         </div>
-        <p>
-          8小时 北京时间2018年3月31日9:00开始，17:00结束
-        </p>
-      </div>
 
-      <div class="content-item">
-        <div class="content-subtitle"> 
-          <img src="../assets/tag.png"/>
-          <p><span>03</span>题目</p>     
-        </div>
-        <p>
-          传统的CTF(Capture the flag)模式。每道赛题均内置1个flag，大多数情况下为SUSCTF{example_flag}。提交包含SUSCTF{}的完整flag来获得相应分值。特殊情况会在题目中标明。 
-        </p>
-        <p>包含如下题目类型：</p>
-        <ul>
-          <li>Web 漏洞挖掘和利用</li>
-          <li>Pwn 漏洞挖掘利用</li>
-          <li>Crypto 密码分析</li>
-          <li>Re 二进制程序逆向分析</li>
-          <li>Misc 电子取证，流量分析，信息隐藏...</li>
-        </ul>
-      </div>
-
-      <div class="content-item">
-        <div class="content-subtitle"> 
-          <img src="../assets/tag.png"/>
-          <p><span>04</span>规则</p>
-        </div>
-        <p>
+        <div class="content-item">
+          <div class="content-subtitle"> 
+            <img src="../assets/tag.png"/>
+            <p><span>03</span>题目</p>     
+          </div>
+          <p>
+            传统的CTF(Capture the flag)模式。每道赛题均内置1个flag，大多数情况下为SUSCTF{example_flag}。提交包含SUSCTF{}的完整flag来获得相应分值。特殊情况会在题目中标明。 
+          </p>
+          <p>包含如下题目类型：</p>
           <ul>
-            <li>参赛队伍如有任何违规行为，将被取消比赛资格</li>
-            <li>禁止不同参赛队伍合作，或者共享flag、hint等任何比赛相关信息</li>
-            <li>禁止攻击比赛平台，如果发现平台漏洞，请务必向我们报告</li>
-            <li>禁止在比赛中妨碍其他队伍解题，例如当你解完一道题后对环境进行破坏</li>
-            <li>禁止往比赛平台发送大量流量，没有任何题目需要使用扫描器</li>
-            <li>禁止对提交的flag进行爆破</li>
-            <li>获奖的队伍必须提交完整结题报告</li>
-            <li>大赛主办方有权修改包括赛题、规则等一切事项</li>
+            <li>Web 漏洞挖掘和利用</li>
+            <li>Pwn 漏洞挖掘利用</li>
+            <li>Crypto 密码分析</li>
+            <li>Re 二进制程序逆向分析</li>
+            <li>Misc 电子取证，流量分析，信息隐藏...</li>
           </ul>
-        </p>
-      </div>
-
-      <div class="content-item">
-        <div class="content-subtitle"> 
-          <img src="../assets/tag.png"/>
-          <p><span>05</span>奖品</p>
         </div>
-        <p>
-          <ul>
-            <li>一等奖（1名）：机械键盘+荣誉证书</li>
-            <li>二等奖（2名）：树莓派+荣誉证书</li>
-            <li>三等奖（3名）：300元书籍+荣誉证书</li>
-          </ul>
-        </p>
-      </div>
 
-      <div class="content-item">
-        <div class="content-subtitle">
-          <img src="../assets/tag.png"/>
-          <p><span>06</span>报名 & 联系方式</p>
+        <div class="content-item">
+          <div class="content-subtitle"> 
+            <img src="../assets/tag.png"/>
+            <p><span>04</span>规则</p>
+          </div>
+          <p>
+            <ul>
+              <li>参赛队伍如有任何违规行为，将被取消比赛资格</li>
+              <li>禁止不同参赛队伍合作，或者共享flag、hint等任何比赛相关信息</li>
+              <li>禁止攻击比赛平台，如果发现平台漏洞，请务必向我们报告</li>
+              <li>禁止在比赛中妨碍其他队伍解题，例如当你解完一道题后对环境进行破坏</li>
+              <li>禁止往比赛平台发送大量流量，没有任何题目需要使用扫描器</li>
+              <li>禁止对提交的flag进行爆破</li>
+              <li>获奖的队伍必须提交完整结题报告</li>
+              <li>大赛主办方有权修改包括赛题、规则等一切事项</li>
+            </ul>
+          </p>
         </div>
-        <p>
-          咨询：直接加入QQ群SUSCTF：429678492，备注“年级-院系-姓名”即可～
-        </p>
-        <p>
-          报名：加入QQ群SUSCTF：429678492，各队信息统一发送至群主处，等待群主确认后为各队发放认证token（3月26日截止）
-        </p>
-      </div>
 
+        <div class="content-item">
+          <div class="content-subtitle"> 
+            <img src="../assets/tag.png"/>
+            <p><span>05</span>奖品</p>
+          </div>
+          <p>
+            <ul>
+              <li>一等奖（1名）：机械键盘+荣誉证书</li>
+              <li>二等奖（2名）：树莓派+荣誉证书</li>
+              <li>三等奖（3名）：300元书籍+荣誉证书</li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="content-item">
+          <div class="content-subtitle">
+            <img src="../assets/tag.png"/>
+            <p><span>06</span>联系方式</p>
+          </div>
+          <p>
+            咨询：直接加入QQ群SUSCTF：429678492，备注“年级-院系-姓名”即可～
+          </p>
+          <p>
+            报名：加入QQ群SUSCTF：429678492，各队信息统一发送至管理员处，等待管理员确认后为各队发放认证token（3月26日截止）
+          </p>
+        </div>
+
+      </div>
     </div>
 
   </div>
@@ -185,7 +194,7 @@ export default {
 }
 
 .title {
-  width: 50%;
+  width: 80%;
   text-align: center;
   color: #FFF;
   font-size: 45px;
@@ -203,7 +212,6 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 20px;
 }
 
 .countdown-item p {
@@ -224,7 +232,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
+  padding: 50px 0;
   color: #FFF;
   
 }
@@ -245,19 +253,19 @@ export default {
 }
 
 .content-subtitle img{
-  height: 60px;
+  height: 50px;
   z-index: 1000;
 }
 
 .content-subtitle p{
   color: #FF8C00;
   font-size: 30px;
-  margin: 10px 35px 0 -85px;
+  margin: 5px 0 0 -70px;
   z-index: 9999;
 }
 
 .content-subtitle span {
-  margin-right: 50px;
+  margin-right: 40px;
   color: #FFF;
 }
 
