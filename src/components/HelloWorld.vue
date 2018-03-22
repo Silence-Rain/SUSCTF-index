@@ -79,7 +79,20 @@
         <div class="content-item">
           <div class="content-subtitle">
             <img src="../assets/tag.png"/>
-            <p><span>04</span>参赛对象</p>
+            <p><span>04</span>赛前宣讲会</p>
+          </div>
+          <p>
+            <ul>
+              <li>时间：3月28日晚19:00</li>
+              <li>地点：敬请期待</li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="content-item">
+          <div class="content-subtitle">
+            <img src="../assets/tag.png"/>
+            <p><span>05</span>参赛对象</p>
           </div>
           <p>每队三人</p>
           <p>
@@ -93,7 +106,7 @@
         <div class="content-item">
           <div class="content-subtitle">
             <img src="../assets/tag.png"/>
-            <p><span>05</span>比赛地点</p>
+            <p><span>06</span>比赛地点</p>
           </div>
           <p>东南大学九龙湖校区计算机楼2楼机房</p>
         </div>
@@ -101,7 +114,7 @@
         <div class="content-item">
           <div class="content-subtitle"> 
             <img src="../assets/tag.png"/>
-            <p><span>06</span>题目</p>     
+            <p><span>07</span>题目</p>     
           </div>
           <p>
             传统的CTF(Capture the flag)模式。每道赛题均内置1个flag，大多数情况下为SUSCTF{example_flag}。提交包含SUSCTF{}的完整flag来获得相应分值。特殊情况会在题目中标明。 
@@ -119,7 +132,7 @@
         <div class="content-item">
           <div class="content-subtitle"> 
             <img src="../assets/tag.png"/>
-            <p><span>07</span>规则</p>
+            <p><span>08</span>规则</p>
           </div>
           <p>
             <ul>
@@ -138,7 +151,7 @@
         <div class="content-item">
           <div class="content-subtitle"> 
             <img src="../assets/tag.png"/>
-            <p><span>08</span>奖品</p>
+            <p><span>09</span>奖品</p>
           </div>
           <p>总排名：</p>
           <p>
