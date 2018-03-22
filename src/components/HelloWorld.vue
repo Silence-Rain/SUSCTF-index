@@ -54,14 +54,54 @@
             <p><span>02</span>比赛时间</p>
           </div>
           <p>
-            8小时 北京时间2018年3月31日9:00开始，17:00结束
+            北京时间2018年3月31日9:00~17:00，共8小时
           </p>
+        </div>
+
+        <div class="content-item">
+          <div class="content-subtitle">
+            <img src="../assets/tag.png"/>
+            <p><span>03</span>报名方式</p>
+          </div>
+          <p>
+            截止3月28日24时
+          </p>
+          
+          <p>
+            <ul>
+              <li>校内同学直接加入QQ群SUSCTF：429678492</li>
+              <li>校外同学由主办方统一邀请</li>
+              <li>各队信息按群文件模板统一发送至管理员处，等待管理员确认后为各队发放认证token</li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="content-item">
+          <div class="content-subtitle">
+            <img src="../assets/tag.png"/>
+            <p><span>04</span>参赛对象</p>
+          </div>
+          <p>每队三人</p>
+          <p>
+            <ul>
+              <li>东南大学在校学生</li>
+              <li>由主办方邀请的各个高校战队</li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="content-item">
+          <div class="content-subtitle">
+            <img src="../assets/tag.png"/>
+            <p><span>05</span>比赛地点</p>
+          </div>
+          <p>东南大学九龙湖校区计算机楼2楼机房</p>
         </div>
 
         <div class="content-item">
           <div class="content-subtitle"> 
             <img src="../assets/tag.png"/>
-            <p><span>03</span>题目</p>     
+            <p><span>06</span>题目</p>     
           </div>
           <p>
             传统的CTF(Capture the flag)模式。每道赛题均内置1个flag，大多数情况下为SUSCTF{example_flag}。提交包含SUSCTF{}的完整flag来获得相应分值。特殊情况会在题目中标明。 
@@ -79,7 +119,7 @@
         <div class="content-item">
           <div class="content-subtitle"> 
             <img src="../assets/tag.png"/>
-            <p><span>04</span>规则</p>
+            <p><span>07</span>规则</p>
           </div>
           <p>
             <ul>
@@ -98,27 +138,23 @@
         <div class="content-item">
           <div class="content-subtitle"> 
             <img src="../assets/tag.png"/>
-            <p><span>05</span>奖品</p>
+            <p><span>08</span>奖品</p>
           </div>
+          <p>总排名：</p>
           <p>
             <ul>
-              <li>一等奖（1名）：机械键盘+荣誉证书</li>
-              <li>二等奖（2名）：树莓派+荣誉证书</li>
-              <li>三等奖（3名）：300元书籍+荣誉证书</li>
+              <li>一等奖（1名）</li>
+              <li>二等奖（2名）</li>
+              <li>三等奖（3名）</li>
             </ul>
           </p>
-        </div>
-
-        <div class="content-item">
-          <div class="content-subtitle">
-            <img src="../assets/tag.png"/>
-            <p><span>06</span>联系方式</p>
-          </div>
+          <p>校内排名：</p>
           <p>
-            咨询：直接加入QQ群SUSCTF：429678492，备注“年级-院系-姓名”即可～
-          </p>
-          <p>
-            报名：加入QQ群SUSCTF：429678492，各队信息统一发送至管理员处，等待管理员确认后为各队发放认证token（3月26日截止）
+            <ul>
+              <li>一等奖（1名）：机械键盘*3 + 荣誉证书</li>
+              <li>二等奖（2名）：树莓派 + 荣誉证书</li>
+              <li>三等奖（3名）：300元书籍 + 荣誉证书</li>
+            </ul>
           </p>
         </div>
 
