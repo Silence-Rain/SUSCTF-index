@@ -117,7 +117,7 @@
             <p><span>07</span>题目</p>     
           </div>
           <p>
-            传统的CTF(Capture the flag)模式。每道赛题均内置1个flag，大多数情况下为SUSCTF{example_flag}。提交包含SUSCTF{}的完整flag来获得相应分值。特殊情况会在题目中标明。 
+            传统的<a href="https://ctf-wiki.github.io/ctf-wiki/">CTF(Capture the flag)</a>模式。每道赛题均内置1个flag，大多数情况下为SUSCTF{example_flag}。提交包含SUSCTF{}的完整flag来获得相应分值。特殊情况会在题目中标明。 
           </p>
           <p>包含如下题目类型：</p>
           <ul>
@@ -221,12 +221,17 @@ export default {
 
 <style scoped>
 
+a {
+  color: #E34A17;
+}
+
 .parent-container {
   width: 100%;
   height: 100%;
   font-size: 20px;
   background-image: url("http://static.myseu.cn/60c11717c07b6caee18fb9ef76fdf19e");
   background-attachment: fixed;
+  /*background-repeat: round;*/
 }
 
 .header {
