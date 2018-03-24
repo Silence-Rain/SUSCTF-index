@@ -4,7 +4,7 @@
       <img src="http://static.myseu.cn/b2adde3bb55900474628196552748207" class="logo" />
       <div class="title">
         <div class="row">
-          <p class="col-md-12">江苏省大学生</p>
+          <p class="col-md-12">“华为杯”江苏省大学生</p>
         </div>
         <div class="row">
           <p class="col-md-12">网络空间安全精英邀请赛</p>
@@ -34,6 +34,17 @@
 
     <div>
       <div class="content">
+
+        <div class="content-item">
+          <div class="content-subtitle"> 
+            <img src="../assets/tag.png"/>
+            <p><span>00</span>平台地址</p>
+          </div>
+          <p>
+            <a href="http://sus.xctf.org.cn/d60f9f98-fb1b-4d9b-9020-99e697760bf4/login/">“华为杯”江苏省大学生网络空间安全精英邀请赛</a>
+          </p>
+        </div>
+
         <div class="content-item">
           <div class="content-subtitle"> 
             <img src="../assets/tag.png"/>
@@ -79,7 +90,7 @@
         <div class="content-item">
           <div class="content-subtitle">
             <img src="../assets/tag.png"/>
-            <p><span>04</span>赛前宣讲会</p>
+            <p><span>04</span>赛前宣讲</p>
           </div>
           <p>
             <ul>
@@ -251,7 +262,7 @@ a {
   width: 80%;
   text-align: center;
   color: #FFF;
-  font-size: 45px;
+  font-size: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -269,7 +280,7 @@ a {
 }
 
 .countdown-item p {
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: -5px;
 }
 
@@ -313,8 +324,8 @@ a {
 
 .content-subtitle p{
   color: #FF8C00;
-  font-size: 30px;
-  margin: 5px 0 0 -70px;
+  font-size: 25px;
+  margin: 7px 0 0 -70px;
   z-index: 9999;
 }
 
