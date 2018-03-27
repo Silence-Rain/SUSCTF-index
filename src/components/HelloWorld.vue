@@ -95,7 +95,7 @@
           <p>
             <ul>
               <li>时间：3月28日晚19:00</li>
-              <li>地点：敬请期待</li>
+              <li>地点：教二-103</li>
             </ul>
           </p>
         </div>
@@ -243,6 +243,7 @@ a {
   background-image: url("http://static.myseu.cn/60c11717c07b6caee18fb9ef76fdf19e");
   background-attachment: fixed;
   /*background-repeat: round;*/
+  background-size: cover; 
 }
 
 .header {
