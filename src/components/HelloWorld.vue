@@ -200,7 +200,7 @@ export default {
 
   computed: {
     diff () {
-      return (this.endTime - this.curTime) / 1000
+      return (this.curTime < this.endTime) ? ((this.endTime - this.curTime) / 1000) : 0
     },
 
     days () {
